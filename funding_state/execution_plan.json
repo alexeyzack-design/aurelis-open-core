@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-10-03T23:53:22.695641+00:00",
+  "mode": "PROOF_FIRST",
+  "targets": [
+    {
+      "id": "ANYSEARCH-2026",
+      "name": "AnySearch Open Source Bounty",
+      "url": "https://github.com/anysearch-team/open-source-bounty",
+      "payout": "CNY 2,500–7,500 per listed target",
+      "deadline": "2026-10-31T23:59:00+08:00",
+      "fit": 96,
+      "evidence_urls": [
+        "https://github.com/anysearch-team/open-source-bounty"
+      ],
+      "next_action": "Confirm Claim ID registration slot, then execute target integration.",
+      "state": "VERIFIED"
+    },
+    {
+      "id": "TETHER-DEV-2026",
+      "name": "Tether Developer Grants",
+      "url": "https://tether.dev/",
+      "payout": "Approx. $1,500–$4,000 per defined deliverable",
+      "deadline": null,
+      "fit": 92,
+      "evidence_urls": [
+        "https://tether.io/news/tether-launches-developer-grants-program-to-fund-local-first-ai-and-payments-infrastructure/",
+        "https://tether.dev/"
+      ],
+      "next_action": "Select one concrete local-first AI / cryptography / tooling deliverable and prepare submission package.",
+      "state": "VERIFIED"
+    },
+    {
+      "id": "ARIA-SCALING-2026",
+      "name": "ARIA Scaling Trust",
+      "url": "https://aria.org.uk/opportunity-spaces/trust-everything-everywhere/scaling-trust/funding",
+      "payout": "Program-specific",
+      "deadline": "2026-10-31T14:00:00Z",
+      "fit": 84,
+      "evidence_urls": [
+        "https://aria.org.uk/opportunity-spaces/trust-everything-everywhere/scaling-trust/funding"
+      ],
+      "next_action": "Convert AURELIS agent verification architecture into a proposal with measurable research deliverables.",
+      "state": "VERIFIED"
+    }
+  ],
+  "rules": [
+    "Never fabricate identity, eligibility, Claim ID, submission, award or payment.",
+    "Never store API keys, passwords, tokens, private keys or seed phrases.",
+    "A submission becomes APPLIED only after a canonical external submission record exists.",
+    "A payment becomes PAID only after independent settlement evidence exists."
+  ]
+}
