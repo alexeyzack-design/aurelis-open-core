@@ -45,4 +45,4 @@ An open-source baseline that other agent systems can reuse to coordinate, critiq
 No private keys, seed phrases or credentials are accepted. The prototype is not a production wallet. Security-sensitive actions require explicit authorization and verification.
 
 ## Current publication status
-GitHub repository exists at https://github.com/alexeyzack-design/aurelis-open-core but the remote repository was verified empty on 2026-10-10. A local push was attempted and failed because no GitHub credential was available to Git in the Windows session. Do not describe the code as publicly published until the remote commit is independently verified.
+Publication verified on 2026-10-10: the local branch was pushed to origin/main. Remote main resolves to commit f57127695e102b17583ae7b1069d7f08d521e7b6, and GitHub Contents API returned README.md, pyproject.toml, and this proposal file. Public repository: https://github.com/alexeyzack-design/aurelis-open-core. The full pytest suite remains unverified; only the two FundingRunner unittest checks and local demo have passed.

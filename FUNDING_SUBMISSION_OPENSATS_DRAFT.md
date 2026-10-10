@@ -29,7 +29,7 @@ DISCOVERED -> VERIFIED -> ELIGIBLE -> APPLIED -> AWARDED -> PAID.
 The project is designed to make AI-agent work reproducible and auditable while keeping Bitcoin-related primitives transparent and locally testable. The current prototype does not hold private keys and does not support unauthorized wallet access.
 
 ## Proposed 3-month deliverables
-1. Publish the repository on GitHub with reproducible setup and tests.
+1. Maintain the published repository and add reproducible CI tests and release artifacts.
 2. Expand deterministic transaction/block/validation test coverage.
 3. Define a signed/evidence-bearing agent message schema.
 4. Add adversarial verification tests for Researcher/Critic/Verifier/Synthesizer hand-offs.
@@ -37,7 +37,7 @@ The project is designed to make AI-agent work reproducible and auditable while k
 6. Document limitations, threat model and security boundaries.
 
 ## Current status
-Early research prototype. GitHub repository exists at https://github.com/alexeyzack-design/aurelis-open-core but was verified empty on 2026-10-10. The code is currently local; a push attempt failed because no GitHub credential was available to Git in the Windows session. Treat publication as pending until a remote commit is verified.
+Early research prototype, now published to https://github.com/alexeyzack-design/aurelis-open-core. Publication verified on 2026-10-10: origin/main resolves to f57127695e102b17583ae7b1069d7f08d521e7b6, and the GitHub Contents API returned README.md, pyproject.toml, and this funding draft. The full pytest suite remains unverified; only the two FundingRunner unittest checks and local demo have passed.
 
 ## Funding use
 Developer time, testing/compute, documentation, security review and open-source maintenance.
