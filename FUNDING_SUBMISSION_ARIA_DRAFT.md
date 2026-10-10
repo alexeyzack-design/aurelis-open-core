@@ -16,14 +16,18 @@ The prototype implements a Researcher -> Critic -> Verifier -> Synthesizer proto
 - security boundary excluding secrets, private keys and unauthorized asset recovery.
 
 ## Existing proof of work
-Repository: C:\AURA\AURELIS-OPEN-CORE
+Local repository: C:\AURA\AURELIS-OPEN-CORE
 Commit 5455922: Initial AURELIS Open Core proof of work
 Commit efdd541: chore: add gitignore
+Current maintenance commit: 2ee344c — fix package discovery for installable core.
 
-Demo verification:
+Demo verification (2026-10-10):
 AURELIS Open Core demo OK
 blocks: 2
 verified evidence: 1
+
+FundingRunner unit tests: 2 passed using unittest.
+Full pytest suite not yet verified because pytest is not installed and dependency installation could not complete.
 
 ## Proposed work
 Build a reusable coordination layer with:
@@ -41,4 +45,4 @@ An open-source baseline that other agent systems can reuse to coordinate, critiq
 No private keys, seed phrases or credentials are accepted. The prototype is not a production wallet. Security-sensitive actions require explicit authorization and verification.
 
 ## Current publication status
-Public repository verified: https://github.com/alexeyzack-design/aurelis-open-core . Code push is still pending authenticated Git transport.
+GitHub repository exists at https://github.com/alexeyzack-design/aurelis-open-core but the remote repository was verified empty on 2026-10-10. A local push was attempted and failed because no GitHub credential was available to Git in the Windows session. Do not describe the code as publicly published until the remote commit is independently verified.
