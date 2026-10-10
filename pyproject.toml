@@ -7,10 +7,14 @@ name = "aurelis-open-core"
 version = "0.1.0"
 description = "Proof-of-work Bitcoin primitives and evidence-first AI-agent coordination for AURELIS"
 requires-python = ">=3.11"
-license = {text = "Apache-2.0"}
+license = "Apache-2.0"
 
 [project.optional-dependencies]
 test = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+include = ["aurelis_open_core*"]
+exclude = ["tests*", "funding_state*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
